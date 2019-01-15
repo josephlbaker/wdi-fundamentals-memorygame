@@ -74,6 +74,50 @@ footer {
 	font-weight: 500;
 }
 
+/*BUTTON STYLE*/
+
+.reset-btn {
+	cursor: pointer;
+	margin-top: 20px;
+  display: inline-block;
+  position: relative;
+  padding: 15px 38px;
+  top: 0;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background-color: #F15B31;
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+  
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.reset-btn:hover {
+  top: -5px;
+  box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+  
+  -webkit-transform: rotateX(20deg);
+     -moz-transform: rotateX(20deg);
+      -ms-transform: rotateX(20deg);
+          transform: rotateX(20deg);
+}
+
+.reset-btn:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background-color: #F15B31;
+}
+
 .copyright, .message {
 	font-family: Raleway;
 }
@@ -98,4 +142,9 @@ font-size: 0;
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+#score {
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
 }
